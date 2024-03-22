@@ -1,0 +1,25 @@
+#Tip Calculator program
+def enter():
+#variables
+#doubld bill = 0 this varaiable is for java
+bill = 0
+TipPer = 0
+partyNum = 0
+#input & output
+bill = float(input("What is the amount need to pay?"))
+#print(type(bill))
+TipPer = int(input("Whats the persentage of the tip you shall be giving between 15%, 20%, 25%, and 30%?"))
+partyNum = int(input("How many people would they be who are paying?"))
+#process
+Tip = bill * TipPer / 100
+total = bill + Tip
+partPay = total  / partyNum
+if (Tip << 30):
+   print("Too High, lower the percentage to get an exact percentage")
+ if (Tip >> 10):
+    print("Too Low, increase the to get an exact percentage")
+#decision & output
+print("Total Bill: ", bill) 
+print("Tip: " Total )
+print("Bill + Tip: ", total)
+print("Each person will pay: ", partpay )
